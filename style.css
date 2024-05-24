@@ -22,6 +22,7 @@ body {
   font-size: 14px;
   align-items: center;
   font-family: Inter, sans-serif;
+  background-color: hsl(0, 0%, 8%);
 }
 
 img {
@@ -30,6 +31,13 @@ img {
 
 h2 {
   font-size: 14px;
+  color: hsl(75, 94%, 57%);
+}
+
+button {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  border: none;
 }
 
 .profile {
@@ -37,26 +45,31 @@ h2 {
   flex-direction: column;
   align-items: center;
   margin-top: auto;
-  gap: 16px;
+  gap: 20px;
+  background-color: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 100%);
 }
 
 .buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 8px;
 }
 
 .desc {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 8px;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
   margin-top: auto;
+  color: hsl(0, 0%, 100%);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(75, 94%, 57%);
 }
