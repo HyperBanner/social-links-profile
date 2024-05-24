@@ -3,6 +3,17 @@
   src: url(./assets/fonts/Inter-VariableFont_slnt\wght.ttf);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
