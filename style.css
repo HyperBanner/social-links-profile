@@ -14,6 +14,28 @@
   padding: 0;
 }
 
+html,
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+img {
+  max-width: 5%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
