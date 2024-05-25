@@ -36,6 +36,11 @@ a {
   text-decoration: none;
 }
 
+li {
+  width: 100%;
+  list-style-type: none;
+}
+
 h1 {
   font-weight: 400;
 }
